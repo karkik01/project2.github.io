@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beach Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <canvas id="myCanvas"></canvas>
+        <div id="timeSelection">
+            <button class="timeButton" data-time="15">15 Seconds</button>
+            <button class="timeButton" data-time="30">30 Seconds</button>
+            <button class="timeButton" data-time="45">45 Seconds</button>
+            <button class="timeButton" data-time="60">60 Seconds</button>
+        </div>
+        <button id="startButton" style="background-color: green;">Start Game</button>
+        <button id="pauseButton" style="background-color: red;" disabled>Pause</button>
+        <div id="scoreDisplay">Score: 0</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
